@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact / Apply — Ellis Power Group | UC Santa Cruz</title>
+  <link rel="icon" href="images/EPG.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navbar ── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <img src="images/EPG_white.png" alt="Ellis Power Group logo" class="nav-logo">
+        <div class="nav-brand-text">
+          <span class="lab-name">Ellis Power Group</span>
+          <span class="lab-sub">Power Electronics Group · UC Santa Cruz</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="contact.html" class="active">Contact / Apply</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page header ── -->
+  <header class="hero" style="padding: 3rem 1.5rem 2.5rem;">
+    <h1 style="font-size:2rem;">Contact & Apply</h1>
+    <p class="subtitle" style="margin-bottom:0;">
+      Interested in joining the group or collaborating? We'd love to hear from you.
+    </p>
+  </header>
+
+  <!-- ── Contact + Apply ── -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: contact info -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-item">
+            <span class="contact-icon">&#9993;</span>
+            <p>
+              <strong>Email</strong><br />
+              <a href="mailto:nellis1@ucsc.edu">nellis1@ucsc.edu</a>
+            </p>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">&#127968;</span>
+            <p>
+              <strong>Location</strong><br />
+              West Side Research Park, Room C186A<br />
+              2300 Delaware Ave, Santa Cruz, CA 95060
+            </p>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">&#127760;</span>
+            <p>
+              <strong>Department</strong><br />
+              <a href="https://www.soe.ucsc.edu/departments/electrical-and-computer-engineering" target="_blank">
+                Electrical and Computer Engineering<br />
+                Baskin School of Engineering, UCSC
+              </a>
+            </p>
+          </div>
+
+          <!-- Optional: embedded map or photo of building -->
+          <div style="margin-top:1.5rem; border-radius:8px; overflow:hidden; border:1px solid var(--gray-light);">
+            <iframe
+              src="https://maps.google.com/maps?q=2300+Delaware+Ave,+Santa+Cruz,+CA+95060&output=embed"
+              width="100%"
+              height="260"
+              style="border:0; display:block;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ellis Power Group location">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Right: apply box -->
+        <div>
+          <div class="apply-box">
+            <h3>Prospective Students & Postdocs</h3>
+            <p>
+              We are always looking for motivated students and postdoctoral researchers
+              with a background in power electronics, circuits, control systems, or
+              related fields. If you're interested in joining the Ellis Power Group, please
+              fill out the interest form below.
+            </p>
+            <p>
+              [Placeholder: Add any specific requirements, current openings, or what
+              you're looking for in applicants — GPA threshold, programming skills,
+              lab experience, etc.]
+            </p>
+            <!--
+              Replace the href below with your actual Google Form URL.
+              It will look like: https://forms.gle/XXXXXXXXXXXXXXXXXX
+            -->
+            <a href="[YOUR GOOGLE FORM URL HERE]" target="_blank" class="btn btn-gold" style="font-size:1rem; padding: 0.65rem 1.5rem;">
+              Apply / Express Interest &#8594;
+            </a>
+          </div>
+
+          <!-- Graduate admissions note -->
+          <div style="margin-top:1.5rem; padding:1.25rem 1.5rem; border:1px solid var(--gray-light); border-radius:8px;">
+            <p style="font-size:0.9rem; font-weight:700; color:var(--blue); margin-bottom:0.5rem;">
+              Formal Graduate Admissions
+            </p>
+            <p style="font-size:0.85rem; color:var(--gray); line-height:1.6;">
+              To formally apply to the UCSC ECE graduate program, please visit the
+              <a href="https://gradadmissions.ucsc.edu/" target="_blank">UCSC Graduate Admissions</a>
+              portal. Mentioning Prof. Ellis in your statement of purpose is encouraged.
+            </p>
+          </div>
+
+          <!-- Undergraduate note -->
+          <div style="margin-top:1rem; padding:1.25rem 1.5rem; border:1px solid var(--gray-light); border-radius:8px;">
+            <p style="font-size:0.9rem; font-weight:700; color:var(--blue); margin-bottom:0.5rem;">
+              UCSC Undergraduates
+            </p>
+            <p style="font-size:0.85rem; color:var(--gray); line-height:1.6;">
+              Current UCSC undergraduates interested in research opportunities (STEM undergraduate
+              research, senior thesis, etc.) are welcome to reach out via email or the form above.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <img src="images/EPG_white.png" alt="Ellis Power Group logo" class="footer-logo">
+      <p class="footer-top">Ellis Power Group — Power Electronics Group</p>
+      <p>Department of Electrical and Computer Engineering · <a href="https://www.ucsc.edu" target="_blank">UC Santa Cruz</a></p>
+      <p style="margin-top:0.5rem;">West Side Research Park C186A, 2300 Delaware Ave, Santa Cruz, CA 95060</p>
+    </div>
+  </footer>
+
+</body>
+</html>

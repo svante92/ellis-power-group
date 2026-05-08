@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Ellis Power Group | UC Santa Cruz</title>
+  <link rel="icon" href="images/EPG.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navbar ── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <img src="images/EPG_white.png" alt="Ellis Power Group logo" class="nav-logo">
+        <div class="nav-brand-text">
+          <span class="lab-name">Ellis Power Group</span>
+          <span class="lab-sub">Power Electronics Group · UC Santa Cruz</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="contact.html">Contact / Apply</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page header ── -->
+  <header class="hero" style="padding: 3rem 1.5rem 2.5rem;">
+    <h1 style="font-size:2rem;">Research & Converters</h1>
+    <p class="subtitle" style="margin-bottom:0;">
+      Our power converter projects — with images and links to published papers.
+    </p>
+  </header>
+
+  <!-- ── Research intro ── -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Our Projects</h2>
+      <p class="section-lead">
+        [Placeholder: One or two sentences summarizing the lab's research themes —
+        e.g., high-frequency DC-DC converters, multilevel inverters, wireless power transfer,
+        wide-bandgap device characterization, etc.]
+      </p>
+
+      <div class="card-grid card-grid-2">
+
+        <!--
+          ── HOW TO ADD A CONVERTER ──
+          1. Copy one of the blocks below.
+          2. Replace the placeholder image div with:
+               <img src="images/your-photo.jpg" alt="Converter name" class="research-img" />
+          3. Fill in the title, description, and paper URL.
+          ────────────────────────────
+        -->
+
+        <div class="card">
+          <div class="research-img placeholder">[Photo: Converter 1]</div>
+          <div class="research-body">
+            <div class="research-title">[Placeholder: Converter / Project Title]</div>
+            <p class="research-desc">
+              [Placeholder: 2–3 sentences describing this converter's topology, specifications,
+              key technical contributions, and application domain (e.g., EV charging, grid storage,
+              data center power supply, etc.).]
+            </p>
+            <a href="[DOI or paper URL]" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="research-img placeholder">[Photo: Converter 2]</div>
+          <div class="research-body">
+            <div class="research-title">[Placeholder: Converter / Project Title]</div>
+            <p class="research-desc">
+              [Placeholder: 2–3 sentences describing this converter — topology, performance,
+              and key novelty.]
+            </p>
+            <a href="[DOI or paper URL]" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="research-img placeholder">[Photo: Converter 3]</div>
+          <div class="research-body">
+            <div class="research-title">[Placeholder: Converter / Project Title]</div>
+            <p class="research-desc">
+              [Placeholder: 2–3 sentences describing this converter — topology, performance,
+              and key novelty.]
+            </p>
+            <a href="[DOI or paper URL]" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="research-img placeholder">[Photo: Converter 4]</div>
+          <div class="research-body">
+            <div class="research-title">[Placeholder: Converter / Project Title]</div>
+            <p class="research-desc">
+              [Placeholder: 2–3 sentences describing this converter — topology, performance,
+              and key novelty.]
+            </p>
+            <a href="[DOI or paper URL]" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <!-- Add more converter cards by duplicating a block above -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Publications list ── -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">All Publications</h2>
+      <p class="section-lead">Full list of journal and conference papers from the Ellis Power Group.</p>
+
+      <!-- Repeat this block for each paper -->
+      <div style="border-left: 3px solid var(--gold); padding-left: 1rem; margin-bottom: 1.5rem;">
+        <p style="font-weight:600; color:var(--blue); margin-bottom:0.2rem; font-size:0.95rem;">
+          [Placeholder: Paper Title]
+        </p>
+        <p style="font-size:0.85rem; color:var(--gray); margin-bottom:0.4rem;">
+          [Author 1, Author 2, et al.] · <em>[Journal / Conference Name]</em> · [Year]
+        </p>
+        <a href="[DOI or paper URL]" target="_blank" style="font-size:0.83rem; color:var(--blue); text-decoration:none; font-weight:600;">
+          View Paper →
+        </a>
+      </div>
+
+      <div style="border-left: 3px solid var(--gold); padding-left: 1rem; margin-bottom: 1.5rem;">
+        <p style="font-weight:600; color:var(--blue); margin-bottom:0.2rem; font-size:0.95rem;">
+          [Placeholder: Paper Title]
+        </p>
+        <p style="font-size:0.85rem; color:var(--gray); margin-bottom:0.4rem;">
+          [Author 1, Author 2, et al.] · <em>[Journal / Conference Name]</em> · [Year]
+        </p>
+        <a href="[DOI or paper URL]" target="_blank" style="font-size:0.83rem; color:var(--blue); text-decoration:none; font-weight:600;">
+          View Paper →
+        </a>
+      </div>
+
+      <!-- Add more publication entries as needed -->
+
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <img src="images/EPG_white.png" alt="Ellis Power Group logo" class="footer-logo">
+      <p class="footer-top">Ellis Power Group — Power Electronics Group</p>
+      <p>Department of Electrical and Computer Engineering · <a href="https://www.ucsc.edu" target="_blank">UC Santa Cruz</a></p>
+      <p style="margin-top:0.5rem;">West Side Research Park C186A, 2300 Delaware Ave, Santa Cruz, CA 95060</p>
+    </div>
+  </footer>
+
+</body>
+</html>
