@@ -66,62 +66,164 @@
     </div>
   </section>
 
-  <!-- ── Stats strip ── -->
-  <section class="section section-alt">
+  <!-- ── News ── -->
+  <section id="news-section" class="section section-alt">
     <div class="container">
-      <h2 class="section-title">Group at a Glance</h2>
-      <div class="highlight-strip">
-        <div class="highlight-item">
-          <span class="highlight-number">7</span>
-          <span class="highlight-label">Group Members</span>
+      <h2 class="section-title">News</h2>
+      <div class="card-grid card-grid-3">
+
+        <!-- Image news block -->
+        <div class="card">
+          <img src="[image path]" alt="[News image]" class="research-img">
+          <div class="research-body">
+            <p style="font-size:0.8rem; color:var(--gray); margin-bottom:0.2rem;">[Month Year]</p>
+            <div class="research-title">[News headline]</div>
+            <p class="research-desc">[Full news content — this will appear in the modal when Read More is clicked.]</p>
+            <a href="#" class="btn btn-blue" onclick="openModal(this); return false;">Read More</a>
+          </div>
         </div>
-        <div class="highlight-item">
-          <span class="highlight-number">[#]</span>
-          <span class="highlight-label">Published Papers</span>
+
+        <!-- No image news block -->
+        <div class="card">
+          <div class="research-img placeholder"></div>
+          <div class="research-body">
+            <p style="font-size:0.8rem; color:var(--gray); margin-bottom:0.2rem;">[Month Year]</p>
+            <div class="research-title">[News headline]</div>
+            <p class="research-desc">[Full news content — this will appear in the modal when Read More is clicked.]</p>
+            <a href="#" class="btn btn-blue" onclick="openModal(this); return false;">Read More</a>
+          </div>
         </div>
-        <div class="highlight-item">
-          <span class="highlight-number">[#]</span>
-          <span class="highlight-label">Active Projects</span>
+
+        <div class="card">
+          <div class="research-img placeholder"></div>
+          <div class="research-body">
+            <p style="font-size:0.8rem; color:var(--gray); margin-bottom:0.2rem;">[Month Year]</p>
+            <div class="research-title">[News headline]</div>
+            <p class="research-desc">[Full news content — this will appear in the modal when Read More is clicked.]</p>
+            <a href="#" class="btn btn-blue" onclick="openModal(this); return false;">Read More</a>
+          </div>
         </div>
-        <div class="highlight-item">
-          <span class="highlight-number">2024</span>
-          <span class="highlight-label">Group Founded</span>
-        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ── Research preview ── -->
+  <!-- ── Featured Conference Presentations ── -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Featured Research</h2>
-      <p class="section-lead">A snapshot of our current converter projects. See the full list on the Research page.</p>
-      <div class="card-grid card-grid-3">
+      <h2 class="section-title">Featured Conference Presentations</h2>
+      <p class="section-lead">Selected talks and presentations from the Ellis Power Group.</p>
+      <div class="card-grid card-grid-2">
 
         <div class="card">
-          <div class="research-img placeholder">[Converter Image]</div>
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/JGYH7zR0ghU"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
           <div class="research-body">
-            <div class="research-title">[Placeholder: Converter Project Title]</div>
-            <p class="research-desc">[Short description of this converter — topology, application, key innovation.]</p>
-            <a href="research.html" class="btn btn-blue">View Research</a>
+            <div class="research-title">Split-Phase Control for Data-Centers</div>
+            <p class="research-desc">Modified Split-Phase Switching with Improved Fly Capacitor Utilization in a 48V-to-PoL Dual Inductor Hybrid-Dickson Converter</p>
+            <a href="https://drive.google.com/file/d/1WH-lkBqeQXBo00qAmAZF47yBKzfSpNG6/view" target="_blank" class="btn btn-blue">Read Paper</a>
           </div>
         </div>
 
         <div class="card">
-          <div class="research-img placeholder">[Converter Image]</div>
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/jD0XQHBYPYw"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
           <div class="research-body">
-            <div class="research-title">[Placeholder: Converter Project Title]</div>
-            <p class="research-desc">[Short description of this converter — topology, application, key innovation.]</p>
-            <a href="research.html" class="btn btn-blue">View Research</a>
+            <div class="research-title">Synchronous Boot-Strapping for High-Side Gate Drive Power Delivery</div>
+            <p class="research-desc">A Synchronous Boot-Strapping Technique with Increased On-Time and Improved Efficiency for High-side Gate-drive Power Delivery</p>
+            <a href="https://drive.google.com/file/d/1WH-lkBqeQXBo00qAmAZF47yBKzfSpNG6/view" target="_blank" class="btn btn-blue">Read Paper</a>
           </div>
         </div>
 
         <div class="card">
-          <div class="research-img placeholder">[Converter Image]</div>
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/U55pdXEgzEo"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
           <div class="research-body">
-            <div class="research-title">[Placeholder: Converter Project Title]</div>
-            <p class="research-desc">[Short description of this converter — topology, application, key innovation.]</p>
-            <a href="research.html" class="btn btn-blue">View Research</a>
+            <div class="research-title">Dickson vs. Cockcroft-Walton</div>
+            <p class="research-desc">A Resonant Dual Extended LC-Tank Dickson Converter with 50% Two-Phase Operation at Odd Conversion Ratios <strong>[Best Technical Lecture Award]</strong></p>
+            <a href="https://drive.google.com/file/d/1NrXpbdTFm4a8NvBak3g795Qt6DAkt5Zg/view" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/bkz6jlpOTvc"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="research-body">
+            <div class="research-title">Closed-Loop Split-Phase Control</div>
+            <p class="research-desc">Closed-Loop Split-Phase Control Applied to the Symmetric Dual Inductor Hybrid (SDIH) Converter</p>
+            <a href="https://drive.google.com/file/d/1yZGYqYv0ZiZ7TIlcGubizP3ZaS7PxKJI/view" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/i5VAI0X557I"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="research-body">
+            <div class="research-title">Regenerative Snubbing in Multi-Level Converters</div>
+            <p class="research-desc">Presented at the Energy Conversion Congress and Exposition (ECCE) 2022.</p>
+            <a href="https://drive.google.com/file/d/1APeE59PD5Y6a50_pHRKJXi4OGnaNuooc/view" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/y23YhmnaFBg"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="research-body">
+            <div class="research-title">Achieving ZVS at Light-Load</div>
+            <p class="research-desc">Reducing C<sub>OSS</sub> Switching Loss in a GaN-based Resonant Cockcroft-Walton Converter Using Resonant Charge Redistribution</p>
+            <a href="https://drive.google.com/file/d/1JP_cOBnIOX_2WDsVjnTTVaK590b-mOuk/view" target="_blank" class="btn btn-blue">Read Paper</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:1rem;">
+            <iframe
+              src="https://www.youtube.com/embed/6qa66QU1ysw"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="research-body">
+            <div class="research-title">Resonant Gate Drivers</div>
+            <p class="research-desc">A Resonant Gate Driver with Variable Gain and a Capacitively Decoupled High-Side GaN-FET</p>
+            <a href="https://drive.google.com/file/d/1EpQJLGyIEV0gHX68V60lefkbmWwA6Xjm/view" target="_blank" class="btn btn-blue">Read Paper</a>
           </div>
         </div>
 
@@ -139,5 +241,45 @@
     </div>
   </footer>
 
+  <!-- ── News Modal ── -->
+  <div id="news-modal" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <img id="modal-img" src="" alt="" style="width:100%; max-height:220px; object-fit:contain; border-radius:6px; margin-bottom:1rem; display:none;">
+      <h3 id="modal-title" style="color:var(--blue); margin-bottom:1rem;"></h3>
+      <p id="modal-date" style="font-size:0.8rem; color:var(--gray); margin-bottom:0.75rem;"></p>
+      <p id="modal-desc" style="font-size:0.95rem; line-height:1.7; color:#333; white-space:pre-line;"></p>
+    </div>
+  </div>
+
+  <script>
+    function openModal(btn) {
+      const card = btn.closest('.card');
+      const body = btn.closest('.research-body');
+      const imgEl = card.querySelector('img.research-img');
+      const modalImg = document.getElementById('modal-img');
+      if (imgEl) {
+        modalImg.src = imgEl.src;
+        modalImg.alt = imgEl.alt;
+        modalImg.style.display = 'block';
+      } else {
+        modalImg.style.display = 'none';
+      }
+      document.getElementById('modal-title').textContent = body.querySelector('.research-title').textContent;
+      document.getElementById('modal-date').textContent = body.querySelector('p').textContent;
+      document.getElementById('modal-desc').textContent = body.querySelector('.research-desc').textContent;
+      document.getElementById('news-modal').classList.add('open');
+    }
+
+    function closeModal(e) {
+      if (!e || e.target === document.getElementById('news-modal')) {
+        document.getElementById('news-modal').classList.remove('open');
+      }
+    }
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModal();
+    });
+  </script>
 </body>
 </html>
